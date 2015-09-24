@@ -9,3 +9,5 @@ Hi there, my name is Nadim Abdelmalek, and I am junior Graphic Designer living i
 
 - [linkedin](https://www.linkedin.com/pub/nadim-abdelmalek/b1/b21/606)
 - [facebook](https://www.facebook.com/nadim.abdelmalik)
+
+![facebook](images/facebook-logo.svg)

@@ -163,57 +163,55 @@ h3 {
 }
 
 .nav-top ul { 
-	margin: 0;
-    padding:0;
-    list-style-type: none;   
+  margin: 0;
+  padding:0;
+  list-style-type: none;   
 }
 
 .social-media {
-    padding: 2em 0;
-    overflow: hidden;
+  padding: 2em 0;
+  overflow: hidden;
 }
 
 .social-media a {
-    float: left;
-    width: 30%;
-    padding: 0;
-    margin: 0 5% 0 0;
-    display: inline-block;
-    text-align: center;
+  float: left;
+  width: 30%;
+  padding: 0;
+  margin: 0 5% 0 0;
+  display: inline-block;
+  text-align: center;
 }
 
 .social-media img {
-    width: 40px;
-    margin: 0 auto;
+  width: 40px;
+  margin: 0 auto;
 }
 
 .social-media a:nth-child(3){
-    margin: 0;
+  margin: 0;
 }
 
 .contact-info {
   overflow: visible;
-
 }
 
 .navtop {
-        text-align: center;
-    }
+  text-align: center;
+}
 
-    .top { 
-        padding-top: 1%;
-        padding-right: 6%;
-        padding-bottom: 0;
-    }
-    
-     .navtop li {
-        display: inline-block;
-        border: 0;
-    }
+.top { 
+  padding-top: 1%;
+  padding-right: 6%;
+  padding-bottom: 0;
+  }
 
-    li .top {
-        padding-botom: 0.5rem;
-    }
+.navtop li {
+  display: inline-block;
+  border: 0;
+  }
+
+li .top {
+  padding-botom: 0.5rem;
 }
 
 @media only screen and (min-width: 50em) {

@@ -41,7 +41,7 @@ body {
 
 .gutter { 
   padding-left: 1em;
-  padding-top: 2em;
+  padding-top: 1em;
   padding-right: 1em;
 }
 
@@ -116,7 +116,7 @@ header {
 }
 
 p {
-    line-height: 3rem;
+    line-height: 2rem;
     font-size: 1rem;
 }
 
@@ -136,7 +136,6 @@ h1 {
 h2 {
   background-color: black;
   font-size: 1.5rem;
-  margin: 2rem 20%;
   color: #fff; 
   text-align: center;
   padding: .5rem 5%;
@@ -342,8 +341,4 @@ ul {
     .nav-btn {
         display: none;
     }
-}
-
-body {
-    line-height: 1;
 }

@@ -4,8 +4,9 @@
 	<meta charset="utf-8">
 	<title>Nadim Abdelmalek</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="css/grid.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
 </head>    
 <body>    
   
@@ -16,20 +17,13 @@
          <li><a href="#main">Skip to main content</a></li>
          <li><a href="#navigation">Skip to navigation</a></li>
     </ul>
-       
-     <nav id="navigation" role="navigation">
-       <ul class="navtop">
-         <li class= "top"><a href="{{site.baseurl}}/index.html" class= "giga">Main</a></li>
-         <li class= "top"><a href="{{site.baseurl}}/portfolio.html" class= "giga">Portfolio</a></li>
-         <li class= "top"><a href="#social-media" class= "giga">Follow Me</a></li>
-       </ul>
-       </nav>
+   {% include nav.html %}
     </header>
   
   {{content}}
   
-  
   <footer role="social-media" id="social-media">
+    {% include nav.html %}
      
     <div class="social-media">
         <a href= "https://www.facebook.com/nadim.abdelmalik"><img src= "images/facebook-logo.svg" alt="facebook"></a>

@@ -1,0 +1,25 @@
+# TEAM
+
+Designer and developer: Nadim Abdelmalek <hey@nadimdesign.ca>
+site: http://nadimdesign.ca
+Github: https:/github.com/nadim944
+linkedin: https://www.linkedin.com/pub/nadim-abdelmalek/b1/b21/606
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+---
+
+#TECHNOLOGY
+
+## Software
+
+- Brackets text
+- git + Github
+- Markdown
+
+## Hosting
+
+- Hover <https://www.hover.com>

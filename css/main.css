@@ -40,9 +40,9 @@ body {
 }
 
 .gutter { 
-  padding-left: 0.5em;
-  padding-top: 0.5em;
-  padding-right: 0.5em;
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-right: 1em;
 }
 
 a:focus {
@@ -106,28 +106,17 @@ header {
 }
 
 .logo {
-  height: 4rem;
+  height: 3rem;
   width: 100px;
   display: block;
   float: left;
   margin: 0 0 0 1em;
+  padding-bottom: 1rem;
 }
 
 p {
   line-height: 2rem;
   font-size: 1rem;
-}
-
-h1 {
-  font-size: 2rem;
-  color: white;
-  text-align: center;
-  position: absolute;
-  bottom: 30%;
-  left:0;
-  right:0;
-  margin-left:auto;
-  margin-right:auto;
 }
 
 h2 {
@@ -420,7 +409,7 @@ figure:hover img {
   transform: scale(1.1);
 }
 
-figcaption h3 {
+figcaption h1 {
   font-family: 'Open sans';
   font-weight: 400;
   color: #fff;
@@ -442,7 +431,7 @@ figcaption p {
   font-size: 13px;
 }
 
-figure:hover h3,figure:hover p {
+figure:hover h1,figure:hover p {
   left: 0;
 }
 

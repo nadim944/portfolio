@@ -62,8 +62,8 @@ body {
 .navtop .nav-current,
 .navtop .nav-current:link,
 .navtop .nav-current:visited {
-    background-color: rgba(0,0,0,0.5);
-    color: #CC2964;
+  background-color: rgba(0,0,0,0.5);
+  color: #CC2964;
 }
 
 a:focus {
@@ -151,6 +151,10 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
+.about-me {
+  padding-top: 0.75em;
+}
+
 h2 {
   background-color: black;
   font-family: 'Kaushan Script', cursive;
@@ -163,7 +167,8 @@ h2 {
 
 .link {
   font-size: 1.3rem;
-  margin: 2rem 20%;
+  margin: 2rem 0;
+  width:100%;
   color: black; 
   text-align: center;
   padding: .5rem 5%;
@@ -171,7 +176,7 @@ h2 {
 
 .link a {
   text-decoration: none;
-  color:  black;
+  color: black;
 }
 
 
@@ -180,7 +185,6 @@ h2 {
   -webkit-transition: all 1000ms;
   transition: all 1000ms;
 }
-
 
 .social-media {
   padding: 2em 0; 
@@ -251,7 +255,6 @@ ul {
     padding:0;
     margin:0;
     padding: 0 1rem;
-   /* padding-bottom: 1.5rem;*/
 }
 
 .desc-img {
@@ -271,8 +274,8 @@ ul {
 
   .navtop li {
     display: inline-block;
-    float: 
     }
+  
 }
 
 @media only screen and (min-width: 25em){
@@ -305,13 +308,8 @@ ul {
   
 h2 {
     margin-top: 0;
-
   }
-  
-  .about-me {
-    padding-top: 0.75em;
-  
-  
+
 }
   
 @media only screen and (min-width: 50em) {
@@ -339,8 +337,6 @@ h2 {
     
     h2 {
     margin-top: 5em;
-  
-  
   }
   
 }

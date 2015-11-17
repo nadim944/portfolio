@@ -4,6 +4,8 @@ Designer and developer: Nadim Abdelmalek <hey@nadimdesign.ca>
 site: http://nadimdesign.ca
 Github: https:/github.com/nadim944
 linkedin: https://www.linkedin.com/pub/nadim-abdelmalek/b1/b21/606
+instagram: https://www.instagram.com/nadim944/
+facebook: https://www.facebook.com/nadim.abdelmalik
 Location: Ottawa, Canada
 
 ---

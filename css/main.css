@@ -158,7 +158,6 @@ h2 {
   color: #fff; 
   text-align: center;
   padding: .5rem 5%;
-  margin-left: 50%;
   margin-bottom: 0;
 }
 
@@ -294,15 +293,25 @@ ul {
     }
         
     .nav-top li {
-        display: inline-block;
-        margin: 0.5em;
-        padding: 1em;
+      display: inline-block;
+      margin: 0.5em;
+      padding: 1em;
       padding-right: 6%
     }
     
     .nav-btn {
-        display: none;
+      display: none;
     }
+  
+h2 {
+    margin-top: 0;
+
+  }
+  
+  .about-me {
+    padding-top: 0.75em;
+  
+  
 }
   
 @media only screen and (min-width: 50em) {
@@ -328,6 +337,12 @@ ul {
         padding-right: 6%;
     }
     
+    h2 {
+    margin-top: 5em;
+  
+  
+  }
+  
 }
 
 current {

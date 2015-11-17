@@ -86,6 +86,8 @@ a:focus {
   display: block;
   border: 0;
   text-align: right;
+  padding-bottom: 1.5em;
+  padding-top: 0.5em;
   }
 
 li .top {
@@ -125,14 +127,13 @@ header {
   overflow: hidden;
   background-color: black;
   margin: 0;
-  padding-top: 0.5rem;
 }
 
 .banner-image{
   padding: 0;
   display:block;
   margin: 0;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
 }
 
 .logo {
@@ -141,7 +142,9 @@ header {
   display: block;
   float: left;
   margin: 0;
-  padding-bottom: 1rem;
+  position: absolute;
+  padding-right: 2em;
+  padding-bottom: 1em;
 }
 
 p {
@@ -232,7 +235,7 @@ h2 {
     }
     
     center {
-        text-align:center;   
+        text-align: center;   
 }
     
     fspan {
@@ -272,10 +275,6 @@ ul {
     padding-top: 1em;
 }
 
-  .navtop li {
-    display: inline-block;
-    }
-  
 }
 
 @media only screen and (min-width: 25em){
@@ -301,15 +300,11 @@ ul {
       padding: 1em;
       padding-right: 6%
     }
-    
-    .nav-btn {
-      display: none;
-    }
   
 h2 {
     margin-top: 0;
   }
-
+  
 }
   
 @media only screen and (min-width: 50em) {
@@ -438,4 +433,15 @@ figcaption a {
 figcaption a:hover {
   color: #9E1D28;
   background: #fff;
+}
+
+
+.seperator {
+  margin-top:3em;
+  margin-bottom:4em;
+  border: 0;
+    height: 4px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+
+
 }

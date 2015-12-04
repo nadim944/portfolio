@@ -17,8 +17,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-size: 100%;
-  font-family: helvetica, Times, serif;
+  font-family: 'Noto Serif', serif;
 }
 
 img {
@@ -148,10 +147,10 @@ header {
 }
 
 p {
-  line-height: 1.5rem;
-  font-size: 1rem;
+  line-height: 1.6rem;
+  font-size: 1.1rem;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Serif', serif;
 }
 
 .about-me {
@@ -363,29 +362,29 @@ figcaption {
   width: 100%;
   background: rgba(0,0,0,.5);
   color: #fff;
-  -webkit-transition: all .9s ease;
-  -moz-transition: all .9s ease;
-  -o-transition: all .9s ease;
-  -ms-transition: all .9s ease;
-  transition: all .9s ease;
-  -webkit-transition-delay: .5s;
-  -moz-transition-delay: .5s;
-  -o-transition-delay: .5s;
-  -ms-transition-delay: .5s;
-  transition-delay: .5s;
+  -webkit-transition: all .1s ease;
+  -moz-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  -ms-transition: all .1s ease;
+  transition: all .1s ease;
+  -webkit-transition-delay: .1s;
+  -moz-transition-delay: .1s;
+  -o-transition-delay: .1s;
+  -ms-transition-delay: .1s;
+  transition-delay: .1s;
 }
 
 figure img {
-  -webkit-transition: all 1.5s;
-  -moz-transition: all 1.5s;
-  -o-transition: all 1.5s;
-  -ms-transition: all 1.5s;
-  transition: all 1.5s;
-  -webkit-transition-delay: .5s;
-  -moz-transition-delay: .5s;
-  -o-transition-delay: .5s;
-  -ms-transition-delay: .5s;
-  transition-delay: .5s;
+  -webkit-transition: all .1s;
+  -moz-transition: all .1s;
+  -o-transition: all .1s;
+  -ms-transition: all .1s;
+  transition: all .1s;
+  -webkit-transition-delay: .1s;
+  -moz-transition-delay: .1s;
+  -o-transition-delay: .1s;
+  -ms-transition-delay: .1s;
+  transition-delay: .1s;
 }
 
 figure:hover img {

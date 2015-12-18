@@ -71,22 +71,18 @@ a:focus {
 
 .navtop {
   text-align: center;
+  margin: 0 0 3em;
 }
 
-.top { 
-  padding-top: 1%;
-  padding-right: 6%;
-  padding-bottom: 0;
-  float: right;
+
+.top {
+  text-align: center;
+  width: 30%;
+  display:inline-block;
   }
 
-.navtop li {
-  position: relative;
-  display: block;
-  border: 0;
-  text-align: right;
-  padding-bottom: 1.5em;
-  padding-top: 0.5em;
+.top a { 
+    padding: 1em auto 1em;
   }
 
 li .top {
@@ -136,14 +132,11 @@ header {
 }
 
 .logo {
-  height: 3.3rem;
-  width: 100px;
+  height: auto;
+  width: 100%;
   display: block;
-  float: left;
-  margin: 0;
-  position: absolute;
-  padding-right: 2em;
-  padding-bottom: 1em;
+  margin: 0 auto 0;
+  padding: 0 0 .5em;
 }
 
 p {
@@ -275,28 +268,30 @@ ul {
 
 }
 
-@media only screen and (min-width: 25em){
+@media only screen and (min-width: 30em){
+  
+    .logo {
+      float:left; 
+      width: 125px;
+      margin: 1em 2% 0;
+      
+    }
 
-    .nav-top {
-        max-height: 5em;
-        text-align: center;
+    .navtop {
+      max-height: 5em;
+      text-align: center;
+      float: right;
+      margin: 1em 0 0;
     }
     
-    .nav-top ul{
-        position: static;
-        display: inline;     
-    }
-    
-    .nav-top a {
-        display: inline-block;
-        font-size: 1em;
+    .navtop a {
+      display: inline-block;
+      font-size: 1em;
     }
         
-    .nav-top li {
-      display: inline-block;
+    .top {
       margin: 0.5em;
-      padding: 1em;
-      padding-right: 6%
+      width: 75px;
     }
   
 h2 {
@@ -308,28 +303,28 @@ h2 {
 @media only screen and (min-width: 50em) {
     
     .nav {
-        float: left;
+      float: left;
     }
     
     .nav-right {
-        float: right;
-        padding-right: 1em;    
+      float: right;
+      padding-right: 1em;    
     }
     
     span {
-       display: inline;
+      display: inline;
    } 
-    
-     .footerspan {
-        display:inline-block;
+  
+  .footerspan {
+       display:inline-block;
      }    
     
     .top { 
-        padding-right: 6%;
+      padding-right: 6%;
     }
     
     h2 {
-    margin-top: 5em;
+      margin-top: 5em;
   }
   
 }

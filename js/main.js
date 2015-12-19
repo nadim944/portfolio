@@ -1,4 +1,0 @@
-
-$navtop.localScroll();
-$socialmedia.localScroll();
-
